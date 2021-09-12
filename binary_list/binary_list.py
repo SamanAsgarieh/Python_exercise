@@ -2,6 +2,7 @@ def append_bits(x, L):
     return [x + element for element in    L]
 
 def generate_bit(n):
+    # generate binary list of an input
     if n == 0: return []
     if n == 1: return ["0", "1"]
     else:
