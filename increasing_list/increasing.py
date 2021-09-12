@@ -55,14 +55,12 @@ def getList(arr, n) :
 			possible = False; 
 			break; 
 
-	# If possible then print the list 
 	if (possible) : 
 		for i in range(1, len(myList)) : 
 			print(myList[i], end = " "); 
 	else : 
 		print("-1"); 
 
-# Driver code 
 if __name__ == "__main__" : 
 
 	arr = [ 1095, 1094, 1095 ]; 
@@ -70,4 +68,3 @@ if __name__ == "__main__" :
 
 	getList(arr, n); 
 
-# This code is contributed by AnkitRai01 
