@@ -1,4 +1,4 @@
-def get_max_occorance(string):
+def get_max_occorence(string):
     all_freq = {}
     for i in string:
         if i not in all_freq:
@@ -8,4 +8,4 @@ def get_max_occorance(string):
     most_occuerd = max(all_freq, key = all_freq.get) 
     return most_occuerd
     
-print(get_max_occorance('xxxaaabbb'))
+print(get_max_occorence('xxxaaabbb'))
