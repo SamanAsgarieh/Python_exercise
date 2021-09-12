@@ -11,6 +11,5 @@ def flatten(my_list):
   return result
 
 
-### reserve for testing...
 planets = ['mercury', 'venus', ['earth'], 'mars', [['jupiter', 'saturn']], 'uranus', ['neptune', 'pluto']]
 print(flatten(planets))
