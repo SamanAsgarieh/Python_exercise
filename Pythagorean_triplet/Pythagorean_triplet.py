@@ -24,4 +24,4 @@ def find_pythagorean_triplets_three_loops(list1):
 print(find_pythagorean_triplets_three_loops([1, 2, 3, 4, 5, 6, 7]))
 print(find_pythagorean_triplets_three_loops([4]))
 
-# print(find_pythagorean_triplets_three_loops([12, 1, 3]))
+print(find_pythagorean_triplets_three_loops([12, 1, 3]))
